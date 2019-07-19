@@ -15,7 +15,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About Changerange
 
-Simple commandline tool for change transfer Microsoft Dynamics NAV objects in another range.
+Simple commandline tool for transfer Microsoft Dynamics NAV objects in another range.
 
 
 ## Prerequisites
@@ -58,4 +58,3 @@ Oleg Lobakov - [@linkedin](https://linkedin.com/in/oleglobakov/)
 [linkedin-url]: https://linkedin.com/in/oleglobakov
 [facebook-shield]: https://img.shields.io/badge/-Facebook-white.svg?style=flat-square&logo=facebook
 [facebook-url]: https://facebook.com/in/oleglobakov
-[product-screenshot]: https://github.com/OlegLobakov/UIESpre/blob/master/docs/githubimages/UIEFelementcard.png
