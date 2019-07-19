@@ -20,7 +20,7 @@ Simple commandline tool for transfer Microsoft Dynamics NAV objects in another r
 
 ## Usage
 
-1. Download project source code (or download compiled exe file [release](https://github.com/OlegLobakov/changerange/releases/tag/v1.0.0).)
+1. Download project source code (or download compiled exe file [release](https://github.com/OlegLobakov/changerange/releases/tag/v1.0.0))
 2. Build project.
 3. Copy \changerange\bin\Debug\changerange.exe to working folder.
 3. Command line parameters:
