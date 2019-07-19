@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <h2 align="center">Change Microsoft Dynamics NAV objects IDs to another range.</h2> 
+  <h2 align="center">Transfer Microsoft Dynamics NAV objects to another range.</h2> 
 </p>
 <br />
 
