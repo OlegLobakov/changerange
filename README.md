@@ -20,13 +20,26 @@ Simple commandline tool for transfer Microsoft Dynamics NAV objects in another r
 
 ## Prerequisites
 
-* Visual Studio 2019 Community Editiom .
+* Visual Studio 2019 Community Edition [link](https://visualstudio.microsoft.com).
 
 ## Usage
 
-1. Download project source code
-2. Compile
+1. Download project source code (or download compiled exe file [release](https://visualstudio.microsoft.com).)
+2. Build project.
+3. Copy \changerange\bin\Debug\changerange.exe to working folder.
+3. Command line parameters:
 
+| Parameter     | Description   |
+| ------------- | ------------- |
+| -f            | objects file in working directory  |
+| -selectrange  | Define objects id range that will be transfer in another range  |
+| -tnewrange    | Start id for tables  |
+| -cnewrange    | Start id for codeunits  |
+| -pnewrange    | Start id for pages     |
+| -xnewrange    | Start id for xmlports  |
+| -rnewrange    | Start id for reports   |
+
+Example:
 ```sh
 changerange.exe -f UIEF.txt -selectrange 58000 59000 -cnewrange 80000 -pnewrange 80000 -tnewrange 80000 -xnewrange 80000
 ```
