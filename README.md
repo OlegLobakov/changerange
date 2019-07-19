@@ -13,6 +13,7 @@
 
 Simple commandline tool for transfer Microsoft Dynamics NAV objects in another range.
 
+[![Build Status][changerangeidea]]()
 
 ## Prerequisites
 
@@ -67,3 +68,4 @@ Oleg Lobakov - [@linkedin](https://linkedin.com/in/oleglobakov/)
 [linkedin-url]: https://linkedin.com/in/oleglobakov
 [facebook-shield]: https://img.shields.io/badge/-Facebook-white.svg?style=flat-square&logo=facebook
 [facebook-url]: https://facebook.com/in/oleglobakov
+[changerangeidea]: https://github.com/OlegLobakov/changerange/blob/master/changerange.png
