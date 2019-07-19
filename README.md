@@ -50,7 +50,7 @@ changerange.exe -f UIEF.txt -selectrange 58000 59000 -cnewrange 80000 -pnewrange
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Report Bug or Request Feature
-<a href="https://github.com/OlegLobakov/UIEF/issues">Report Bug or Request Feature</a>
+<a href="https://github.com/OlegLobakov/changerange/issues">Report Bug or Request Feature</a>
 
 
 <!-- CONTACT -->
