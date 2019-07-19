@@ -1,9 +1,5 @@
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <h2 align="center">Transfer Microsoft Dynamics NAV objects to another range.</h2> 
-</p>
-<br />
+# Transfer Microsoft Dynamics NAV objects to another range
+
 
 [![Build Status][build-shield]]()
 [![Contributors][contributors-shield]]()
