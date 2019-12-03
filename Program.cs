@@ -214,8 +214,9 @@ namespace changerange
             }
 
             Console.WriteLine("Magic...");
-            String text = File.ReadAllText(filename, Encoding.Default);
 
+            string text = new StreamReader(filename, Encoding.GetEncoding(437)).ReadToEnd();
+            
             string objtabletext = "OBJECT Table ";
             string recordtext = " : Record ";
             string sourcetabletext = "SourceTable=Table";
@@ -274,8 +275,24 @@ namespace changerange
                 text = ReplaceText(text, reportruntext, "", cid);
             }
 
-            File.WriteAllText(filename, text);
-        
+
+            try
+            {
+                string newfilename = filename + "2";
+                if (File.Exists(newfilename))
+                {
+                    File.Delete(newfilename);
+                }
+                FileStream stream = new FileStream(newfilename, FileMode.CreateNew);
+                using (StreamWriter writer = new StreamWriter(stream, Encoding.GetEncoding(437)))
+                {
+                    writer.Write(text);
+                }
+            }
+            catch (Exception exp)
+            {
+                Console.Write(exp.Message);
+            }
 
             Console.WriteLine("Done");
             Console.ReadKey();
