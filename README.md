@@ -5,8 +5,7 @@
 [![Contributors][contributors-shield]]()
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-[![star this repo](http://githubbadges.com/star.svg?user=OlegLobakov&repo=changerange&style=flat)](https://github.com/OlegLobakov/changerange)
-[![fork this repo](http://githubbadges.com/fork.svg?user=OlegLobakov&repo=changerange&style=flat)](https://github.com/OlegLobakov/changerange/fork)
+
 
 <!-- ABOUT THE PROJECT -->
 ## About Changerange
